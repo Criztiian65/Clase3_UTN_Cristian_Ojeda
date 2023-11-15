@@ -7,9 +7,9 @@ function Navbar() {
     <Box as="header" bgColor={"#9338fd"} display="flex" alignItems="center" justifyContent="end" >
 
     <ButtonGroup spacing={3} p='5px'>
-    <Button as='a' href='#'>Productos</Button>
-    <Button as='a' href='https://www.google.com' >Carrito</Button>
-    <Button as='a' href='#' >Nosotros</Button>
+    <Button as='a' href='#' variant='ghost' >Productos</Button>
+    <Button as='a' href='https://www.google.com' variant='ghost' >Carrito</Button>
+    <Button as='a' href='#' variant='ghost' >Nosotros</Button>
 
     </ButtonGroup>
 
