@@ -3,6 +3,8 @@ import { Box, Button, ButtonGroup } from '@chakra-ui/react'
 
 function Navbar() {
  
+
+  
   return (
     <Box as="header" bgColor={"#9338fd"} display="flex" alignItems="center" justifyContent="end" >
 

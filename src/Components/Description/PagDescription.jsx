@@ -3,12 +3,12 @@ import { React } from "react";
 
 
 const PagDescription = ({ titulo, precio, descripcion, img, codigoSKU, stock }) => {
-     console.log();
+     
     return (
 
          <Flex  justify='center' bg="#d7b4fe" minH='80vh' >
             <Stack p='5' direction={{base:'column', md:'row'}} align={{base: 'center', sm:'center',md:'start'}} >
-            <Box as='a' href='https://www.google.com' >
+            <Box  >
                 <Image maxW={300} src={img} alt="Imagen del celular" />
             </Box>
 
